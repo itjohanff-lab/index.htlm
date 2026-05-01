@@ -1,0 +1,33 @@
+/* Color de fondo gris oscuro para la página */
+body {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Para que el texto biográfico sea legible */
+}
+
+/* Color de fondo blanco para el título */
+h1 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+/* Color de fondo blanco para el párrafo */
+p {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    max-width: 600px;
+}
+
+/* Centrar todos los elementos */
+.contenedor {
+    text-align: center;
+}
+
+img, video {
+    display: block;
+    margin: 20px auto;
+}
