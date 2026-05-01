@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Primer Sitio Web</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Nombre del Artista</h1> <!-- Título del artista -->
+        
+        <img src="Imagen1.jpg" alt="Imagen del artista"> <!-- Imagen1 -->
+        
+        <p>Aquí escribes la biografía del artista musical seleccionado.</p> <!-- Párrafo -->
+        
+        <video width="320" height="240" controls>
+            <source src="video1.mp4" type="video/mp4"> <!-- Video de max 2 min -->
+            Tu navegador no soporta el video.
+        </video>
+    </div>
+</body>
+</html>
