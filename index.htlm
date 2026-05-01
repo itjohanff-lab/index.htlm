@@ -2,33 +2,28 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Primer Sitio Web</title>
-    <!-- Enlace al archivo CSS -->
-    <link rel="stylesheet" href="estilo.css"> 
+    <title>Mi Primer Sitio Web - Feid</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <div class="contenedor">
-        <h1>FEID</h1> <!-- Título del artista -->
+        <h1>FEID</h1>
 
-<img src="imagen1.jpg" alt="Imagen de Feid">
-        
-        <p>### Perfil Biográfico  
-• Nombre Real: Salomón Villada Hoyos.  
-• Origen: Nació el 19 de agosto de 1992 en Medellín, Colombia.  
-• Nombre Artístico: "Feid" significa "fe en Dios y en sí mismo". Su alter ego, Ferxxo, representa una etapa más auténtica y conectada con la jerga de su ciudad natal.  
-### Trayectoria Musical  
-• Inicios como Compositor: Antes de ser solista, fue la mente detrás de éxitos globales como "Ginza" de J Balvin, "Mamita" de CNCO y "Secretos" de Reykon.  
-• Debut como Solista: En 2015 lanzó su primer sencillo, "Morena", que le dio reconocimiento en varios países de Latinoamérica.  
-• Consolidación: En 2016 firmó con Universal Music y lanzó "Qué Raro" junto a J Balvin. Su estilo mezcla reggaetón, trap y pop con un sonido fresco y letras sinceras.  
-### Discografía Destacada  
-• 19 (2019): Álbum nominado al Grammy Latino como Mejor Álbum de Música Urbana.  
-• Ferxxo (Vol. 1: M.O.R) (2020): Incluye éxitos como "Porfa".  
-• Inter Shibuya - La Mafia (2021): Álbum que consolidó su identidad visual y musical.  
-• Feliz Cumpleaños Ferxxo Te Pirateamos El Álbum (2022): Uno de sus proyectos más virales.  
-• Proyectos Recientes (2025-2026): Lanzamientos como Ferxxo Vol X: Sagrado (2025) y su actual gira mundial El Falxo World Tour (2026).</p> <!-- Párrafo -->
-        
-        <video width="320" height="240" controls>
+        <img src="imagen1.jpg" alt="Imagen de Feid" width="400">
+
+        <div class="biografia" style="background-color: white; padding: 20px; margin: 20px 0; border-radius: 10px; color: black; text-align: left;">
+            <h2>Perfil Biográfico</h2>
+            <p><strong>Nombre Real:</strong> Salomón Villada Hoyos.</p>
+            <p><strong>Origen:</strong> Nació el 19 de agosto de 1992 en Medellín, Colombia.</p>
+            <p><strong>Nombre Artístico:</strong> "Feid" significa "fe en Dios y en sí mismo". Su alter ego, Ferxxo, representa una etapa más auténtica y conectada con su ciudad natal.</p>
+            
+            <h2>Trayectoria Musical</h2>
+            <p>Inició como compositor para artistas como J Balvin y CNCO. En 2015 debutó como solista con "Morena" y desde entonces ha lanzado álbumes exitosos como "Inter Shibuya - La Mafia" y "Feliz Cumpleaños Ferxxo".</p>
+        </div>
+
+        <video width="100%" controls>
             <source src="video1.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
         </video>
     </div>
 </body>
